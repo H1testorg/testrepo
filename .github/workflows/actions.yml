@@ -2,6 +2,7 @@ name: Actions
 on: workflow_dispatch
 jobs:
   cache:
+    on: production
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
